@@ -1,3 +1,13 @@
+/* universal - tags */
+
+body{
+
+    background-color: #faf8da;
+
+}
+
+/*header styling*/
+
 h1{
     color: #205d76;
     font-size: 70px;
@@ -5,6 +15,26 @@ h1{
 
 .header-style{
     text-align: center;
+}
+
+#header-img{
+    width: 650px;
+    border: 5px dashed red;
+    border-radius: 50px;
+}
+
+/*header style end*/
+
+/*main style*/
+
+.store-section{
+    display:flex;
+    justify-content: center;
+}
+
+.main-image{
+    height:200px ;
+    width:200px ;
 }
 
 .main-heading{
@@ -19,4 +49,12 @@ h1{
 .list-text2{
     color: orange;
     font-size: 22px;
+}
+
+footer{
+    background-color:#ffc122;
+    text-align:center;
+    color:white;
+    font-size: 20px;
+    padding: 10px;
 }
